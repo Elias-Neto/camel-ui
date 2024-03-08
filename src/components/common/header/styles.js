@@ -5,7 +5,6 @@ export const Container = styled.div`
   grid-template-areas:
     'categories logo userButton'
     'searchBar searchBar searchBar';
-
   height: 15rem;
   width: 100%;
   padding: 1.6rem;
