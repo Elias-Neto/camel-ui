@@ -6,6 +6,7 @@ import { MainLayout } from '../../components/layout/mainLayout/index.jsx'
 import { priceFormatter } from '../../utils'
 import { useFetchProductById } from '../../hooks/dataFetching/useFetchProductByID'
 import { Carousel } from '../../components/common/carousel'
+import RelatedProducts from '../../components/common/RelatedProducts/index.jsx'
 
 import { InfoArea, ProdArea, ProdName, SelectionArea, Slides } from './styles'
 
@@ -119,6 +120,7 @@ const Product = () => {
             </div>
           </SelectionArea>
         </ProdArea>
+        <RelatedProducts />
       </MainLayout>
     </>
   )
